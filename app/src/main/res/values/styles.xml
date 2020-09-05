@@ -1,0 +1,198 @@
+<resources>
+
+    <!-- Colors -->
+    <color name="white_opaque">#FFFFFFFF</color>
+    <color name="pitch_black">#FF000000</color>
+    <color name="app_background">#FFB0FF75</color>
+    <color name="button_up">#FFFFB266</color>
+    <color name="button_down">#FFFF8644</color>
+    <color name="button2_up">#FFEB9EFF</color>
+    <color name="button2_down">#FFDD59FF</color>
+    <color name="sequencebutton_up">#FFA8D9FF</color>
+    <color name="sequencebutton_down">#FF56B0FF</color>
+
+    <!-- Text sizes for mobile-->
+    <dimen name="title1">18sp</dimen>
+    <dimen name="title2">22sp</dimen>
+    <dimen name="heading">18sp</dimen>
+    <dimen name="normal">16sp</dimen>
+    <dimen name="button">14sp</dimen>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <!-- Background -->
+        <!--<item name="android:background">@color/blue</item>-->
+        <!--<item name="android:windowBackground">@color/blue</item>-->
+        <item name="android:colorBackground">@color/app_background</item>
+
+        <!-- Buttons -->
+        <item name="android:buttonStyle">@style/button</item>
+
+        <!-- Toggle Buttons -->
+        <item name="android:buttonStyleToggle">@style/toggleButton</item>
+    </style>
+
+    <!-- Button styles -->
+    <style name="button">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/button</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+        <!--
+        <item name="android:shadowColor">@color/pitch_black</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">20</item>
+        -->
+    </style>
+
+    <style name="toggleButton">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/button</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:background">@drawable/selector_togglebutton</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Spinner style -->
+    <style name="spinner">
+    <item name="android:background">@drawable/selector_spinner</item>
+    <item name="android:paddingLeft">30dp</item>
+    <item name="android:paddingRight">30dp</item>
+    <item name="android:paddingTop">5dp</item>
+    <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="textMainTitle">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/title1</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="textMainTitle2">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/title2</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="textMainButton">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/heading</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="textMainInfo">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/normal</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="textContactTitle">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/heading</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="textContactText">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/normal</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="textContactTextBold">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/normal</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textPreparingTitle">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/heading</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="textPreparingOptions">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/normal</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="textPreparingSpinner">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/button</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="textQuestionTitle">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/heading</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textQuestionTitle2">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/normal</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="textQuestionNumber">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/normal</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="textValidateTitle">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/heading</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="textValidateInfo">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/normal</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="textResultTitle">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/heading</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="textResultInfo">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/normal</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="textResultInfoBold">
+        <item name="android:textColor">@color/pitch_black</item>
+        <item name="android:textSize">@dimen/normal</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,98 @@
+<resources>
+    <!-- App specific -->
+    <string name="app_name">NWT Bibelquiz</string>
+
+    <!-- Standard -->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Main -->
+    <string name="title_text_welcome">Velkommen til</string>
+    <string name="title_text_welcome2">NWT Bibelquiz</string>
+    <string name="title_text_info">Denne bibelquiz er baseret på \"Ny Verden-Oversættelsen af De Hellige Skrifter\" udgivet af Vagttårnets Bibel- og Traktatselskab.\n\nQuizzen er udviklet som et familieprojekt til glæde for os selv, familie og venner. Den er og forbliver gratis efter det bibelske princip: \"I har fået det for intet, I skal give det for intet.\", Mattæus 10:8.\n\nDen kan bruges til en hyggelig aften hvor man tester sin bibelske paratviden, ved at svare på så mange spørgsmål så hurtigt som muligt og se hvor mange man har fået rigtigt.\n\nMan kan også bruge den på sin familieaften hvor man sammen undersøger de spørgsmål man ikke svarede rigtigt på.\n\nHar i forslag til nye spørgsmål, rettelser eller kommentarer, er i velkomne til at kontakte os, ved at klikke på knappen \"Kontakt\" her under. Vær opmærksom på at vi ikke giver betaling for indsendte spørgsmål.\n\nVi håber at I vil hygge jer med at bruge quizzen!\nVenligste hilsner\nLinette og Birk Bonnicksen</string>
+    <string name="title_button_contact">Foreslå spørgsmål</string>
+    <string name="title_button_contact_noEmailClient">Der er ikke installeret en e-mail klient.</string>
+    <string name="title_button_start">Start</string>
+    <string name="title_button_info">Information</string>
+
+    <!-- Information -->
+    <string name="info_title">Information</string>
+
+    <!-- Contact -->
+    <string name="contact_title">Kontakt</string>
+    <string name="contact_info">OBS! Klik på ønsket knap her under og vælg din e-mail app.\nE-mailen forudfyldes med guidende tekst.\nUdfyld resten af e-mailen som beskrevet i teksten og send den afsted til os.</string>
+    <string name="contact_question">Foreslå et spørgsmål.</string>
+    <string name="contact_question2">Vælg den type spørgsmål du / i vil foreslå.</string>
+    <string name="contact_button_mcq">Flere svarmuligheder, et rigtigt svar</string>
+    <string name="contact_button_tfq">To svarmuligheder, sandt eller falsk</string>
+    <string name="contact_button_maq">Mange svarmuligheder, flere rigtige svar</string>
+    <string name="contact_button_sq">Sæt i rigtig rækkefølge</string>
+    <string name="contact_contact">Rettelser, kommentarer ris og ros.</string>
+    <string name="contact_button_contact">Kontakt</string>
+
+    <!-- Preparing -->
+    <string name="preparing_text">Tilpas quizzen</string>
+    <string name="preparing_numberOfQuestions">Antal spørgsmål</string>
+    <string-array name="preparing_numberOfQuestions">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>Alle</item>
+    </string-array>
+    <string name="preparing_help">Vejledning</string>
+    <string name="preparing_help_on">Til</string>
+    <string name="preparing_help_off">Fra</string>
+    <string name="preparing_button_start">Start</string>
+
+    <!-- Question -->
+    <string name="question_help">\?</string>
+    <string name="question_text_questionnb">Nr:</string>
+    <string name="question_button_validate">OK</string>
+
+    <string name="question_helpmcq_title">Flere svarmuligheder,\net rigtigt svar</string>
+    <string name="question_helpmcq_text">Klik på det svar du mener er det rigtige svar.\n\nKlik herefter på knappen \"OK\".\n\nKlik på knappen \"?\" for at læse denne vejledning igen.</string>
+
+    <string name="question_helptfq_title">To svarmuligheder,\nsandt eller falsk</string>
+    <string name="question_helptfq_text">Klik på det udsagn du mener er det rigtige svar.\n\nKlik herefter på knappen \"OK\".\n\nKlik på knappen \"?\" for at læse denne vejledning igen.</string>
+
+    <string name="question_helpmaq_title">Mange svarmuligheder,\nflere rigtige svar</string>
+    <string name="question_helpmaq_text">Klik på alle de svar du mener er rigtige.\nDer er mere end et.\n\nKlik herefter på knappen \"OK\".\n\nVær opmærksom på at forkerte svar giver minus point, men det er ikke muligt at få mindre end \"0\" point for det samlede spørgsmål.\n\nKlik på knappen \"?\" for at læse denne vejledning igen.</string>
+
+    <string name="question_helpsq_title">Sæt i rigtig rækkefølge</string>
+    <string name="question_helpsq_text">Træk svarene rundt så de kommer til at stå i den rigtige rækkefølge.\nDet første svar øverst, det sidste svar nederst.\n\nKlik herefter på knappen \"OK\".\n\nKlik på knappen \"?\" for at læse denne vejledning igen.</string>
+
+    <string name="question_help_button">OK</string>
+
+    <!-- ValidateAnswer -->
+    <string name="answer_text_right1">Rigtigt!</string>
+    <string name="answer_text_right2">Flot!</string>
+    <string name="answer_text_right3">Rigtigt svaret!</string>
+    <string name="answer_text_right4">Meget flot!</string>
+    <string name="answer_text_right5">Det var rigtigt!</string>
+    <string name="answer_text_wrong1">Det var desværre forkert..</string>
+    <string name="answer_text_wrong2">Øv, det var ikke rigtigt..</string>
+    <string name="answer_text_wrong3">Øv..</string>
+    <string name="answer_text_wrong4">Forkert..</string>
+    <string name="answer_text_wrong5">Desværre..</string>
+    <string name="answer_text_point">Point for svar:</string>
+    <string name="answer_button_next">Næste</string>
+    <string name="answer_button_end">Stop her</string>
+
+    <!-- Result -->
+    <string name="result_title">Resultat</string>
+    <string name="result_numberOfQuestions">Antal rigtige:</string>
+    <string name="result_numberOfPoints">Antal point:</string>
+    <string name="result_total">Samlet resultat:</string>
+    <string name="result_time">Tid brugt:</string>
+    <string name="result_button_main">Forfra</string>
+
+    <!-- Activities -->
+    <string name="title_activity_preparing">PreparingActivity</string>
+    <string name="title_activity_multiple_choice_question">MultipleChoiceQuestionActivity</string>
+    <string name="title_activity_sequence_question">SequenceQuestionActivity</string>
+    <string name="title_activity_validate_answer">ValidateAnswerActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+</resources>

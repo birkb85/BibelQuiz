@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text sizes for tablet-->
+    <dimen name="title1">30sp</dimen>
+    <dimen name="title2">35sp</dimen>
+    <dimen name="heading">30sp</dimen>
+    <dimen name="normal">25sp</dimen>
+    <dimen name="button">20sp</dimen>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+
+            <item>
+                <shape>
+                    <corners
+                        android:radius="5dp"
+                        />
+                    <solid
+                        android:color="@color/button_up"
+                        />
+                    <!--
+                    <gradient
+                        android:angle="45"
+                        android:centerX="35%"
+                        android:centerColor="#7995A8"
+                        android:startColor="#E8E8E8"
+                        android:endColor="#000000"
+                        android:type="linear"
+                        />
+                        -->
+                    <!--
+                    <padding
+                        android:left="2dp"
+                        android:top="2dp"
+                        android:right="2dp"
+                        android:bottom="2dp"
+                        />
+                        -->
+                    <!--
+                    <size
+                        android:width="270dp"
+                        android:height="60dp"
+                        />
+                        -->
+                    <stroke
+                        android:width="2dp"
+                        android:color="#000000"
+                        />
+                </shape>
+            </item>
+
+            <item>
+                <bitmap android:gravity="bottom|right" android:src="@drawable/spinner_symbol" />
+            </item>
+
+        </layer-list>
+    </item>
+</selector>
